@@ -25,6 +25,8 @@ public class Main {
         fila.print();
         System.out.println("------------------------\nAgora o cliente que divide a lista (Ademario):");
         System.out.println(fila.getNoDoMeio());
+        System.out.println("------------------------\nAgora a lista invertida:");
+        fila.printReverse();
 
     }
 }

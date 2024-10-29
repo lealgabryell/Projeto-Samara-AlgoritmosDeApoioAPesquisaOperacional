@@ -18,7 +18,8 @@ public class FilaBanco implements FilaBancoInterface {
         return this.size == 0;
     }
 
-    // imprime a lista
+    // imprime a lista.
+    // O(n)
     @Override
     public void print() {
         if (isEmpty()) {
@@ -35,6 +36,7 @@ public class FilaBanco implements FilaBancoInterface {
     }
 
     // adc no início da lista
+    // O(1)
     @Override
     public void addFirst(Cliente cliente) {
         Node novo = new Node(cliente);
@@ -49,6 +51,7 @@ public class FilaBanco implements FilaBancoInterface {
     }
 
     // adc no fim da lista
+    // O(1)
     @Override
     public void addLast(Cliente cliente) {
         Node novo = new Node(cliente);
@@ -63,21 +66,19 @@ public class FilaBanco implements FilaBancoInterface {
     }
 
     // adiciona um cliente em uma posicao espicifica
+    // O(n)
     @Override
     public void add(int index, Cliente cliente) {
         Node novo = new Node(cliente);
-
         // checa se o índice é válido
         if (index < 0 || index > this.size) {
             return;
         }
-
         // checa se a lista tá vazia
         if (isEmpty()) {
             this.head = novo;
             this.tail = novo;
         }
-
         // começa checando se o indice é zero, pq se for é só chamar o addFirst
         if (index == 0) {
             addFirst(cliente);
@@ -100,6 +101,7 @@ public class FilaBanco implements FilaBancoInterface {
     }
 
     // remove um cliente baseado no objeto que sera passado como parametro
+    // O(n)
     @Override
     public void remove(Cliente cliente) {
         if (isEmpty()) {
@@ -119,6 +121,7 @@ public class FilaBanco implements FilaBancoInterface {
 
     // retorna uma String com o nome do cliente que divide a lista no meio. Se size for par
     // ele pega o cliente com indice maior dentre os dois do meio
+    // O(n)
     @Override
     public String getNoDoMeio() {
         if (isEmpty()) {
@@ -140,6 +143,7 @@ public class FilaBanco implements FilaBancoInterface {
     }
 
     // le todas a cadeia de clientes e remove aqueles que tiverem o atributo Cliente do Node igual
+    // O(n)
     @Override
     public void removeDuplicates() {
         if (isEmpty()) {
@@ -159,22 +163,30 @@ public class FilaBanco implements FilaBancoInterface {
 
 
     //nao ta funcionando, ta invertendo apenas o head com o tail mas nao os demais elementos
+    // O(n)
     @Override
     public void printReverse() {
         if (isEmpty()) {
             return;
         }
-        Node aux = this.head;
-        Node temp = null;
-        while (aux != null) {
-            temp = aux.next;
-            aux = temp;
+
+        // francinaldo -> pablo -> talles -> gabryell -> ademario -> dudu
+        // pablo -> francinaldo
+        // dudu -> ademario -> gabryell -> talles -> pablo -> francinaldo
+
+        Node atual = this.head;
+        Node prev = null;
+        Node next = null;
+        while (atual != null) {
+            next = atual.next;
+            atual.next = prev;
+            prev = atual;
+            atual = next;
         }
-        this.head = this.tail;
-        this.tail = temp;
+        this.head = prev;
+        this.tail = this.head;
 
         print();
     }
-
 
 }
