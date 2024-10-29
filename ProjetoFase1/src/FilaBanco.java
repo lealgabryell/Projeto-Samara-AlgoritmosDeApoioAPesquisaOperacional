@@ -29,7 +29,7 @@ public class FilaBanco implements FilaBancoInterface {
         Node aux = this.head;
 
         while (aux != null) {
-            System.out.println(aux.cliente.getNome());
+            System.out.println("Nome: " + aux.cliente.getNome() + " CPF: " + aux.cliente.getCpf());
             aux = aux.next;
         }
     }

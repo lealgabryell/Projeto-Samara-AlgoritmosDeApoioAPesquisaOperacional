@@ -6,7 +6,4 @@ public class Node {
         this.cliente = cliente;
     }
 
-    public Cliente getCliente() {
-        return cliente;
-    }
 }
