@@ -79,7 +79,7 @@ Em cada método implementado, precisamos da informação do custo: <br>**Calcule
 
 O projeto inteiro vale **3,0 pontos**.
 
-## Código: 1,5
+## Código: 2,5
 
 - Cada função implementada corretamente: 0,5
   - Adicionar Elemento em uma Posição Específica
@@ -88,12 +88,13 @@ O projeto inteiro vale **3,0 pontos**.
   - Retornar o Nó que Está no Meio da Lista
   - Remover Nós Duplicados
 
-## Apresentação: 1,5
+## Apresentação: 0,5
 
 - A apresentação ocorrerá no dia 06/11, na primeira aula após a entrega do projeto.
 - O grupo completo apresentará para a professora.
 - Haverá um sorteio para determinar qual integrante de cada grupo explicará qual funcionalidade
 - Os alunos deverão detalhar a lógica de implementação, justificar por que a solução funciona daquela maneira e discutir o custo de cada função.
+- Explicação da função: 0,5. Essa nota será individual, dependendo da explicação de cada integrante.
 
 # ⚖ License
 
