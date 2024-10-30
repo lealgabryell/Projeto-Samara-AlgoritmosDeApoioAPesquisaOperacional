@@ -100,6 +100,20 @@ public class FilaBanco implements FilaBancoInterface {
         }
     }
 
+    @Override
+    public void removeFirst() {
+        if (isEmpty()) {
+            return;
+        }
+        if (this.head.next == null) {
+            this.head = null;
+            this.tail = null;
+        } else {
+            this.head = this.head.next;
+        }
+        size -= 1;
+    }
+
     // remove um cliente baseado no objeto que sera passado como parametro
     // O(n)
     @Override
@@ -110,13 +124,15 @@ public class FilaBanco implements FilaBancoInterface {
         Node aux = this.head;
 
         for (int i = 0; i < this.size - 1; i++) {
-            if (aux.next.cliente.equals(cliente)) {
+            if(this.head.cliente.equals(cliente)) {
+                removeFirst();
+            }else if (aux.next.cliente.equals(cliente)) {
                 aux.next = aux.next.next;
+                this.size -= 1;
                 break;
             }
             aux = aux.next;
         }
-        this.size -= 1;
     }
 
     // retorna uma String com o nome do cliente que divide a lista no meio. Se size for par
