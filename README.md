@@ -52,12 +52,20 @@
 <a><img src="https://media.licdn.com/dms/image/v2/D4D03AQF6e2Mekm9SKA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715113844927?e=1735776000&v=beta&t=AjxxbY9Bz1MgOAn0nHwKBSMwhZ9Zmz73JIMUJbGoSq4" width="200"></a><br><br>
 
 🪪 **Talles Oliveira**<br>
-💼 **Desenvolvedor front-end | HTML | CSS | JavaScript | Python | Java | SQL | API**<br>
+💼 **Análista de finanças | Python | CSS | JavaScript | React | SQL**<br>
 🎓 **Bacharelando em Sistemas de Informação - Unifacisa**<br>
 
 <a href="https://www.linkedin.com/in/talles-oliveira-98976827b/"><img src="https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=linkedin" width="100"></a>
 
 ---
+
+<a><img src="https://media.licdn.com/dms/image/v2/D5603AQHXGFgqw43VDg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1730466709428?e=1736380800&v=beta&t=Goh1RbquJNiOR7I-wkhWvSCtPwPYL_F1C1W7EQ659GM" width="200"></a><br><br>
+
+🪪 **Eduardo Sena**<br>
+💼 **Desenvolvedor front-end | HTML | CSS | JavaScript | Python | Java | SQL | API**<br>
+🎓 **Bacharelando em Sistemas de Informação - Unifacisa**<br>
+
+<a href="https://www.linkedin.com/in/talles-oliveira-98976827b/"><img src="https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=linkedin" width="100"></a>
 
 # 🎯 Funções a implementar
 
