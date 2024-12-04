@@ -57,7 +57,7 @@ public class Utils {
                 //Valor dos itens dentro da mochila é incrementado pelo valor do item que entrou.
                 valorAdicionado += item.valor;
                 //Peso dos itens dentro da mochila é incrementado pelo peso do item que entrou
-                pesoAdicionado += item.valor;
+                pesoAdicionado += item.peso;
 
             } else if (capacidadeRestante == 0.0) {
                 break;

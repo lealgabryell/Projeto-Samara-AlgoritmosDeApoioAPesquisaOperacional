@@ -17,11 +17,15 @@ public class Main {
         Item itemA = new Item("A", 10.0, 60.0);
         Item itemB = new Item("B", 20.0, 100.0);
         Item itemC = new Item("C", 30.0, 120.0);
+//        Item itemD = new Item("D", 1.0, 20.0);
+//        Item itemE = new Item("E", 1.0, 10.0);
 
         //Adiciona itens criados a lista de itens
         itens.add(itemB);
         itens.add(itemC);
         itens.add(itemA);
+//        itens.add(itemD);
+//        itens.add(itemE);
 
         //adiciona itens a mochila apos verifica-los
         utils.addMochilaGuloso(mochila, itens);
