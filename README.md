@@ -29,7 +29,7 @@
 
 ---
 
-<a><img src="https://media.licdn.com/dms/image/v2/D4D03AQGVK7bUlOK6QQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1720743089396?e=1735776000&v=beta&t=krdcujWe2O-loyEe3MdENP2Ddd6NcNuYLYK2duF6LxY" width="200"></a><br><br>
+<a><img src="https://avatars.githubusercontent.com/u/142511788?v=4" width="200"></a><br><br>
 
 🪪 **Gabryell Leal**<br>
 💼 **Professor de inglês Yázigi | Java | JavaScript | Node | React | PowerBi**<br>
@@ -39,7 +39,7 @@
 
 ---
 
-<a><img src="https://media.licdn.com/dms/image/v2/D4D03AQHpBH3e1uO9ZQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725280747762?e=1735776000&v=beta&t=8Sbd2UbZvaYXezj4cQPEnVV1Cw-uZ1qFnjwEnpoPwz4" width="200"></a><br><br>
+<a><img src="https://avatars.githubusercontent.com/u/134446830?v=4" width="200"></a><br><br>
 
 🪪 **Pablo Selares**<br>
 💼 **Desenvolvedor FrontEnd HTML | CSS | REACT | MONGODB**<br>
@@ -49,7 +49,7 @@
 
 ---
 
-<a><img src="https://media.licdn.com/dms/image/v2/D4D03AQF6e2Mekm9SKA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715113844927?e=1735776000&v=beta&t=AjxxbY9Bz1MgOAn0nHwKBSMwhZ9Zmz73JIMUJbGoSq4" width="200"></a><br><br>
+<a><img src="https://avatars.githubusercontent.com/u/132765451?v=4" width="200"></a><br><br>
 
 🪪 **Talles Oliveira**<br>
 💼 **Análista de finanças | Python | CSS | JavaScript | React | SQL**<br>
